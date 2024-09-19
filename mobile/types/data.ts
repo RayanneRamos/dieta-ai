@@ -1,16 +1,16 @@
-interface MealsProps {
-  schedule: string;
-  name: string;
-  food: string[];
+interface RefeicoesProps {
+  horario: string;
+  nome: string;
+  alimentos: string[];
 }
 
-export interface DataProps {
-  name: string;
-  gender: string;
-  age: number;
-  weight: number;
-  height: number;
-  objective: string;
-  meals: MealsProps[];
-  suplements: string[];
+export interface Data {
+  nome: string;
+  sexo: string;
+  idade: number;
+  altura: number;
+  peso: number;
+  objetivo: number;
+  refeicoes: RefeicoesProps[];
+  suplementos: string[];
 }

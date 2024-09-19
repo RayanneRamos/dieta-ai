@@ -25,6 +25,8 @@ export default function Create() {
     resolver: zodResolver(schema),
   });
 
+  const setPageTwo = useDataStore((state) => state.setPageTwo);
+
   const genderOptions = [
     { label: "Masculino", value: "masculino" },
     { label: "Feminino", value: "feminino" },
@@ -55,8 +57,6 @@ export default function Create() {
     { label: "Hipertrofia + Definição", value: "hipertrofia e definição" },
     { label: "Definição", value: "definição" },
   ];
-
-  const setPageTwo = useDataStore((state) => state.setPageTwo);
 
   function handleCreateDiet(data: formData) {
     setPageTwo({

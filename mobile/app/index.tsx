@@ -1,6 +1,13 @@
 import { colors } from "@/constants/colors";
 import { Link } from "expo-router";
-import { Image, Pressable, StyleSheet, Text, View } from "react-native";
+import {
+  Image,
+  Pressable,
+  StatusBar,
+  StyleSheet,
+  Text,
+  View,
+} from "react-native";
 
 export default function HomeScreen() {
   return (
@@ -17,6 +24,7 @@ export default function HomeScreen() {
           <Text style={styles.buttonText}>Gerar dieta</Text>
         </Pressable>
       </Link>
+      <StatusBar translucent barStyle={"default"} />
     </View>
   );
 }
