@@ -33,6 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   # Clone o repositório e entre na pasta do projeto
   $ git clone https://github.com/RayanneRamos/dieta-ai.git
   $ cd dieta-ai
+  $ cd mobile     
   # Instale as dependências
   $ npm install
   # ou
