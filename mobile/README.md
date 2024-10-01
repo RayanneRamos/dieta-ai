@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+<h1 align='center'>Dieta.AI</h1>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align='center'>
+  <img src='https://github.com/user-attachments/assets/1f9c6bd3-9125-49c3-963f-b83ac1a873aa' alt='dieta.ai' />
+</p>
 
-## Get started
+<p  align='center'>
+  <img src='https://img.shields.io/badge/license-MIT-%23835afd' alt='License' />
+  <img src='https://img.shields.io/badge/forks-MIT-%23835afd' alt='Forks' />
+  <img src='https://img.shields.io/badge/stars-MIT-%23835afd' alt='Stars' />
+</p>
 
-1. Install dependencies
+<br>
 
-   ```bash
-   npm install
-   ```
+## 💻 Projeto
 
-2. Start the app
+[Dieta.ai]() O aplicativo de gerador de dieta por AI personaliza planos alimentares com base nas informações fornecidas pelos usuários, como nome, idade, peso, altura, e quantidade de exercícios realizados durante a semana. Além disso, o usuário escolhe o foco da dieta (por exemplo, ganho de massa, perda de peso, ou manutenção) e define seu objetivo principal. Com esses dados, o aplicativo utiliza inteligência artificial para criar uma dieta equilibrada e ajustada às necessidades individuais, garantindo uma alimentação saudável e eficiente para alcançar os resultados desejados.
 
-   ```bash
-    npx expo start
-   ```
+## 🧪 Technologies
 
-In the output, you'll find options to open the app in a
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Expo](https://expo.dev/)
+- [Tanstack/react-query](https://tanstack.com/query/latest)
+- [Axios](https://www.npmjs.com/package/axios)
+- [React-hook-form](https://react-hook-form.com/)
+- [Zod](https://zod.dev/)
+- [Zustand](https://zustand.docs.pmnd.rs/)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 🚀 Instalação
 
 ```bash
-npm run reset-project
+  # Clone o repositório e entre na pasta do projeto
+  $ git clone https://github.com/RayanneRamos/dieta-ai.git
+  $ cd dieta-ai
+  # Instale as dependências
+  $ npm install
+  # ou
+  $ yarn install
+  # Execute a aplicação
+  $ npx expo start
+  # ou
+  $ yarn start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Para ver a aplicação rodando abra no emulador ou no seu próprio dispositivo!
 
-## Learn more
+## 🔖 Layout
 
-To learn more about developing your project with Expo, look at the following resources:
+- [Mobile](https://www.figma.com/design/fOTjJmr1RqWNKV3ruJUZ7u/Dieta.AI---Sujeito-Programador?node-id=0-1&t=AvF8EvbeMaLL5Weq-1)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📝 License
 
-## Join the community
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para obter mais detalhes.
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<p align='center'>Criado by Rayanne Ramos</p>
